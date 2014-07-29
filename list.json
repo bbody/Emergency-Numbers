@@ -1,15 +1,17 @@
 {
-    "AU": {
-        "country": "Australia",
-        "numbers": {
-            "general": "000",
-            "mobile": "112"
+    "countries": [
+        {
+            "country": "Australia",
+            "numbers": {
+                "general": "000",
+                "mobile": "112"
+            }
+        },
+        {
+            "country": "United States of America",
+            "numbers": {
+                "general": "911"
+            }
         }
-    },
-    "US": {
-        "country": "United States of America",
-        "numbers": {
-            "general": "911"
-        }
-    }
+    ]
 }
