@@ -1,0 +1,6 @@
+{
+    "ambulance": "112", 
+    "fire": "118", 
+    "police": "118",
+    "international": "101"
+}
