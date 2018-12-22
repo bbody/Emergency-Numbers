@@ -1,0 +1,10 @@
+language: python
+sudo: enabled
+script:
+  - python3 combine.py
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: sh deploy.sh $GH_TOKEN
+  on:
+    branch: master
