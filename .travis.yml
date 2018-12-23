@@ -1,5 +1,4 @@
 language: python
-sudo: enabled
 script:
   - python3 combine.py
 deploy:
